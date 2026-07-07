@@ -1,26 +1,29 @@
 # Data Visualization using Titanic Dataset
 
-## Overview
+## About the Project
 
-This project demonstrates how to visualize the distribution of both continuous and categorical variables using Python. The Titanic dataset from Kaggle is used to create meaningful visualizations that help understand the characteristics of the passengers.
+This project explores the **Titanic Dataset** by visualizing the distribution of both continuous and categorical variables. Using Python and Matplotlib, different charts are created to better understand the passenger data and identify meaningful patterns.
 
-The project includes a histogram to analyze the distribution of passenger ages and a bar chart to compare the number of male and female passengers. Additional statistical information such as the mean and median age is also displayed to provide deeper insights into the data.
-
----
-
-## 📊 Objective
-
-- Create a **Histogram** to visualize the distribution of a continuous variable.
-- Create a **Bar Chart** to visualize the distribution of a categorical variable.
-- Enhance the visualizations using professional styling, annotations, statistical indicators, and informative labels.
+The project includes a histogram showing the distribution of passenger ages and a bar chart representing the gender distribution of passengers. Statistical measures such as the mean and median age are also highlighted to provide additional insights.
 
 ---
 
-## 📁 Dataset
+## Project Goal
+
+The main objectives of this project are:
+
+- Visualize the distribution of a continuous variable using a histogram.
+- Visualize the distribution of a categorical variable using a bar chart.
+- Improve the readability of visualizations using labels, annotations, and statistical indicators.
+- Understand the basic concepts of data visualization.
+
+---
+
+## Dataset
 
 **Dataset:** Titanic Dataset
 
-The dataset contains information about passengers aboard the RMS Titanic, including demographic details, ticket information, and survival status.
+The dataset contains demographic and travel information about passengers aboard the RMS Titanic.
 
 ### Features Used
 
@@ -31,7 +34,7 @@ The dataset contains information about passengers aboard the RMS Titanic, includ
 
 ---
 
-## 🛠 Technologies Used
+## Tools and Libraries
 
 - Python
 - Pandas
@@ -40,59 +43,40 @@ The dataset contains information about passengers aboard the RMS Titanic, includ
 
 ---
 
-## 📈 Visualizations
+## Data Preparation
 
-### 1. Histogram – Age Distribution
+Before creating the visualizations, the following preprocessing steps were performed:
 
-The histogram illustrates the distribution of passenger ages.
-
-Features included:
-- 25 histogram bins
-- Mean age indicator
-- Median age indicator
-- Statistical summary box
-- Grid styling
-- Professional color scheme
-
-### 2. Bar Chart – Gender Distribution
-
-The bar chart displays the number of male and female passengers.
-
-Features included:
-- Passenger count labels
-- Percentage labels
-- Professional color palette
-- Clean layout
-- Customized styling
+- Loaded the dataset.
+- Removed missing values from the **Age** column.
+- Calculated statistical measures such as the mean and median age.
+- Prepared categorical data for visualization.
 
 ---
 
-## 📊 Statistical Information Displayed
+## Visualizations
 
-The histogram includes:
+The project includes the following visualizations:
 
-- Total Passengers
+- Histogram of Passenger Age Distribution
+- Bar Chart of Passenger Gender Distribution
+
+The histogram also displays:
+
 - Mean Age
 - Median Age
-- Minimum Age
-- Maximum Age
+- Total Number of Passengers
+- Minimum and Maximum Age
+
+The bar chart includes:
+
+- Passenger Count
+- Percentage Distribution
+- Value Labels
 
 ---
 
-## 🚀 Project Workflow
-
-1. Import required libraries.
-2. Load the Titanic dataset.
-3. Handle missing values in the Age column.
-4. Create a histogram for passenger age distribution.
-5. Calculate and display mean and median age.
-6. Generate a bar chart for gender distribution.
-7. Display passenger counts and percentages.
-8. Apply professional styling and formatting.
-
----
-
-## 📂 Project Structure
+## Folder Structure
 
 ```
 PRODIGY_DS_01/
@@ -105,44 +89,26 @@ PRODIGY_DS_01/
 
 ---
 
-## 📸 Expected Output
+## Key Findings
 
-The project generates a professional dashboard consisting of:
+Some important observations from the visualizations include:
 
-- Histogram of Passenger Age Distribution
-- Bar Chart of Passenger Gender Distribution
-
-These visualizations provide a clear understanding of the distribution of both numerical and categorical variables within the Titanic dataset.
-
----
-
-## 📚 Learning Outcomes
-
-Through this project, the following concepts were explored:
-
-- Data Loading using Pandas
-- Data Cleaning
-- Handling Missing Values
-- Histogram Visualization
-- Bar Chart Visualization
-- Data Distribution Analysis
-- Statistical Measures (Mean & Median)
-- Data Annotation in Matplotlib
-- Professional Data Visualization Techniques
+- Most passengers were between **20 and 40 years** of age.
+- Male passengers outnumbered female passengers.
+- The age distribution is concentrated around young adults.
+- The charts provide a clear understanding of passenger demographics.
 
 ---
 
-##  Conclusion
+## Conclusion
 
-This project demonstrates how Python can be used to effectively visualize data distributions using histograms and bar charts. The visualizations provide meaningful insights into the age and gender composition of Titanic passengers while showcasing clean and professional plotting practices.
+This project demonstrates how histograms and bar charts can be used to effectively visualize numerical and categorical data. The visualizations help summarize passenger demographics and provide useful insights into the distribution of age and gender within the Titanic dataset.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Vijay Prakash**
 
-Dr. B. R. Ambedkar National Institute of Technology  
+Dr. B. R. Ambedkar National Institute of Technology (NIT Jalandhar)  
 Jalandhar, Punjab
-
----
