@@ -79,10 +79,10 @@ The bar chart includes:
 ## Folder Structure
 
 ```
-PRODIGY_DS_01/
+SCT_DS_01/
 │
 ├── Titanic-Dataset.csv
-├── Task01.ipynb
+├── Data_Visualization.ipynb
 ├── README.md
 └── output.png
 ```
