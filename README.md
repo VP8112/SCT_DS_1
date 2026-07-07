@@ -84,7 +84,7 @@ SCT_DS_01/
 ├── Titanic-Dataset.csv
 ├── Data_Visualization.ipynb
 ├── README.md
-└── output.png
+└── output_images/
 ```
 
 ---
